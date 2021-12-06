@@ -1,0 +1,734 @@
+/**
+*
+* Custom styles & fonts for the audio players
+*
+*
+**/
+
+/* CUSTOM AUDIO FONT */
+
+@font-face {
+  font-family: 'secondline-audio';
+  src:  url('../fonts/secondline-audio.eot?');
+  src:  url('../fonts/secondline-audio.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/secondline-audio.ttf?') format('truetype'),
+    url('../fonts/secondline-audio.woff?') format('woff'),
+    url('../fonts/secondline-audio.svg?#secondline-audio') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body #main-container-secondline .mejs-container .mejs-controls .mejs-button button,
+body #main-container-secondline .mejs-container .mejs-controls .mejs-button button:before,
+body #main-container-secondline .powerpress_links a.powerpress_link_pinw:before,
+body #main-container-secondline .podcast_meta a.podcast-meta-new-window:before,
+body #main-container-secondline .powerpress_links a.powerpress_link_d:before,
+body #main-container-secondline .podcast_meta a.podcast-meta-download:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-next-button button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-prev-button button:before {
+    font-family: secondline-audio !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;    
+	box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-container .mejs-controls .mejs-playpause-button button:before,
+body.secondline-fancy-player #main-container-secondline .mejs-button.mejs-jump-forward-button button:before,
+body.secondline-fancy-player #main-container-secondline .mejs-button.mejs-skip-back-button button:before,
+body.secondline-fancy-player #main-container-secondline .mejs-volume-button button:before {
+	transition-duration: 250ms; 
+	transition-property: all; 
+	transition-timing-function: ease-in-out;
+}
+
+#main-container-secondline .mejs-container .mejs-controls .mejs-button.mejs-speed-button,
+#main-container-secondline .mejs-container .mejs-controls .mejs-button.mejs-speed-button button {
+	font-family: sans-serif !important;
+}
+
+body #main-container-secondline .powerpress_links a.powerpress_link_d:before,
+body #main-container-secondline .podcast_meta a.podcast-meta-download:before {
+    content: "\e902" !important;
+}
+
+body #main-container-secondline .powerpress_links a.powerpress_link_pinw:before,
+body #main-container-secondline .podcast_meta a.podcast-meta-new-window:before {
+    content: "\e904" !important;
+}
+
+body #main-container-secondline .mejs-volume-button.mejs-mute button:before {
+    content: "\e900";	
+}
+
+body #main-container-secondline .mejs-volume-button.mejs-unmute button:before {
+    content: "\e901";
+}
+
+body #main-container-secondline .mejs-button.mejs-jump-forward-button button:before {
+    content: "\e90a";
+}
+
+body #main-container-secondline .mejs-button.mejs-skip-back-button button:before {
+    content: "\e909"; 
+}
+
+body #main-container-secondline .mejs-playpause-button.mejs-play button:before {
+    content: "\e907";
+}
+
+body #main-container-secondline .mejs-playpause-button.mejs-pause button:before {
+    content: "\e906";
+}
+
+body #main-container-secondline .mejs-fullscreen-button button:before,
+body #main-container-secondline .mejs-fullscreen-button.mejs-unfullscreen button:before {
+	content: "\e989";
+}
+
+body #main-container-secondline .mejs-playpause-button.mejs-replay button:before {
+	content: "\e908";
+	font-size: 36px;
+}
+
+
+
+/* AUDIO STYLES */
+
+
+
+body #main-container-secondline .mejs-button.mejs-skip-back-button button {
+    visibility: hidden;
+}
+
+body #main-container-secondline .mejs-button.mejs-skip-back-button button:before {
+    visibility: visible;
+    display: block;
+    background-size: cover;
+    position: relative;
+    color: inherit;
+    font-size: 22px;
+    top: 2px;
+    left: 0;
+}
+
+body #main-container-secondline .mejs-button.mejs-jump-forward-button button {
+	width: 30px;
+    height: 30px;
+    position: relative;
+    left: -6px;
+    top: 1px;
+}
+
+body #main-container-secondline .mejs-button.mejs-skip-back-button button {
+	width: 30px;
+    height: 30px;
+    position: relative;
+    left: -20px;
+    top: -1px;
+}
+
+body #main-container-secondline .mejs-button.mejs-jump-forward-button button:before {
+    visibility: visible;
+    display: block;
+    background-size: cover;
+    position: relative;
+    color: inherit;
+    font-size: 22px;
+}
+
+body #main-container-secondline .mejs-jump-forward-button button {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -36px;
+    left: 0px;
+    visibility: hidden;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-volume-button.mejs-mute button:before,
+body.secondline-fancy-player #main-container-secondline .mejs-volume-button.mejs-unmute button:before {
+	font-size:22px;
+	top:-3px;
+}
+
+body #main-container-secondline .mejs-container .mejs-button.mejs-speed-button button {
+    padding: 1px;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+	color: #fff;
+    font-size: 10px !important;
+    font-family: sans-serif !important;
+    position: relative;
+    top: 2px;
+	font-weight: 700;
+	width: 36px;
+    height: 22px;
+    background: rgba(0,0,0,.1) !important;
+    padding: 2px !important;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-container .mejs-button.mejs-speed-button button:hover {
+	color: #fff;
+}
+
+body #main-container-secondline ul.mejs-speed-selector-list {
+	list-style: none;
+    text-align: center !important;
+    padding: 0;
+    margin: 0;
+    top: -165px;
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    width: 60px;
+    border: 2px solid #b1b1b1;
+    left: -6px;
+    border-radius: 3px;
+	box-sizing: border-box !important;
+}
+
+body #main-container-secondline ul.mejs-speed-selector-list:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    left: 23px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #b1b1b1;
+}
+
+body #main-container-secondline .mejs-speed-selector-input {
+    visibility: hidden;
+    display: none;
+}
+
+body #main-container-secondline ul.mejs-speed-selector-list li {
+    font-size: 11px;
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+	color: #fff;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    padding-bottom: 6px;
+    opacity: .85;
+}
+
+body #main-container-secondline ul.mejs-speed-selector-list li:hover {
+    opacity: 1;
+}
+
+body #main-container-secondline ul.mejs-speed-selector-list li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: 0;
+}
+
+body #main-container-secondline .mejs-speed-selector.mejs-offscreen {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
+
+body #main-container-secondline .mejs-speed-selector {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+
+body #main-container-secondline .mejs-volume-handle {
+	cursor: pointer;
+}
+
+body #main-container-secondline .mejs-container .mejs-controls .mejs-playpause-button {
+	left: -8px !important;
+}
+
+body #main-container-secondline .mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+	top: 16px;
+}
+
+body #main-container-secondline .mejs-controls .mejs-time-rail .mejs-time-float-current {
+	margin: 3px;
+}
+
+body #main-container-secondline .powerpress_links a.powerpress_link_d:before, body #main-container-secondline .podcast_meta a.podcast-meta-download:before {
+	font-size: 30px;
+    top: -47px;
+    right: -16px;
+}
+
+body #main-container-secondline .powerpress_links a.powerpress_link_pinw:before, body #main-container-secondline .podcast_meta a.podcast-meta-new-window:before {
+    font-size: 30px;
+    top: -46px;
+    right: 24px;
+}
+
+body.secondline-fancy-player #main-container-secondline .podcast_meta a.podcast-meta-new-window:before {
+	top: -44px !important;
+}
+
+body.secondline-fancy-player #main-container-secondline .podcast_meta a.podcast-meta-download:before {
+	top: -46px !important;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+	body.secondline-fancy-player #main-container-secondline .secondline-themes-default-blog-index div.podcast_meta, body.secondline-fancy-player #main-container-secondline .secondline-themes-default-blog-index p.powerpress_links {
+		top: 35px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	body #blog-post-title-meta-container .single-player-container-secondline, body #main-container-secondline .secondline-themes-post-list-main .secondline-masonry-item .single-column-slt .post-list-player-container-secondline {
+		position: relative;
+		left: 16px;
+	}		
+	
+	body #blog-post-title-meta-container .single-player-container-secondline .embed-player-single-slt { 
+		left: auto;
+	}
+	
+	body.single-post #main-container-secondline #page-title-slt-post-page .single-player-container-secondline .embed-player-single-slt .mejs-container,
+	body #main-container-secondline .secondline-themes-post-list-main .secondline-masonry-item .single-column-slt .post-list-player-container-secondline .embed-player-single-slt .mejs-container {
+		width: 97% !important;
+	}
+	body.secondline-fancy-player #main-container-secondline .secondline-themes-default-blog-index div.podcast_meta, body.secondline-fancy-player #main-container-secondline .secondline-themes-default-blog-index p.powerpress_links {
+		top: 35px;
+	}	
+}
+
+body #main-container-secondline .secondline-masonry-item .grid-columns-slt .mejs-button.mejs-jump-forward-button,
+body #main-container-secondline .secondline-masonry-item .grid-columns-slt .mejs-button.mejs-skip-back-button,
+body #main-container-secondline .secondline-masonry-item .grid-columns-slt .mejs-button.mejs-speed-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-2 .mejs-button.mejs-jump-forward-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-2 .mejs-button.mejs-skip-back-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-2 .mejs-button.mejs-speed-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-3 .mejs-button.mejs-jump-forward-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-3 .mejs-button.mejs-skip-back-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-3 .mejs-button.mejs-speed-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-4 .mejs-button.mejs-jump-forward-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-4 .mejs-button.mejs-skip-back-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-4 .mejs-button.mejs-speed-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-5 .mejs-button.mejs-jump-forward-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-5 .mejs-button.mejs-skip-back-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-5 .mejs-button.mejs-speed-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-6 .mejs-button.mejs-jump-forward-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-6 .mejs-button.mejs-skip-back-button,
+body #main-container-secondline .secondline-masonry-item.secondline-masonry-col-6 .mejs-button.mejs-speed-button {
+	display:none;
+}
+
+@media screen and (max-width: 767px) {
+	body #main-container-secondline .mejs-button.mejs-jump-forward-button,
+	body #main-container-secondline .mejs-button.mejs-skip-back-button,
+	body #main-container-secondline .mejs-button.mejs-speed-button {
+		display: none;
+	}
+    body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls button,
+    body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls button {
+		font-size: 18px !important;
+	}	
+    body #main-container-secondline .wp-playlist .mejs-container .mejs-controls .mejs-playpause-button button:before,
+    body #main-container-secondline .secondline_playlist .mejs-container .mejs-controls .mejs-playpause-button button:before {
+		font-size: 22px !important;
+	}	
+    body.secondline-fancy-player #main-container-secondline #page-title-slt-post-page .wp-playlist.secondline_playlist,
+    body.secondline-fancy-player #main-container-secondline #page-title-slt-post-page .secondline_playlist {
+		max-width: 100% !important;
+		margin-top: 75px;
+	}
+    body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button button,
+    body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button button {
+		left: 2px !important;
+	}
+	body.secondline-fancy-player .no-thumb-slt:before {
+		display:none;
+	}
+	body.secondline-fancy-player .mejs-playlist-current.mejs-layer img, body.secondline-fancy-player .mejs-playlist-current.mejs-layer p span,
+	body.secondline-fancy-player .mejs-playlist-current.mejs-layer img, body.secondline-fancy-player .mejs-playlist-current.mejs-layer p {
+		font-size: 15px;
+	}
+	body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer {
+		display:block;
+	}
+	body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer img, body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer p span {
+		display: block !important;
+		height: auto;
+		min-width: auto;
+		padding: 10px;
+	}
+	body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer img {
+        max-width: 100%;
+        display: none !important;
+		padding-bottom: 0;
+		padding-right: 0;
+		margin-right: 0;
+	}
+	body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer p {
+        margin-top: 8px !important;
+        display: inline-block;
+	}
+	body.secondline-fancy-player #main-container-secondline .mejs-playlist-item-thumbnail {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 1024px) {	
+	body #main-container-secondline .secondline-themes-post-list-main .mejs-button.mejs-jump-forward-button,
+	body #main-container-secondline .secondline-themes-post-list-main .mejs-button.mejs-skip-back-button,
+	body #main-container-secondline .secondline-themes-post-list-main .mejs-button.mejs-speed-button {
+		display: none;
+	}	
+}
+
+body #main-container-secondline .secondline-masonry-item .grid-columns-slt .mejs-horizontal-volume-total {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+body #main-container-secondline .secondline-masonry-item .grid-columns-slt .mejs-container .mejs-controls .mejs-playpause-button {
+	left: 0 !important;
+}
+
+body #main-container-secondline .mejs-time-buffering,
+body #main-container-secondline .mejs-time-current,
+body #main-container-secondline .mejs-time-loaded,
+body #main-container-secondline .mejs-time-handle {
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+body #main-container-secondline .mejs-volume-current,
+body #main-container-secondline .mejs-volume-handle {
+    transition: all .1s ease-in-out;
+}
+
+/* VIDEO PLAYER STYLES */
+
+body #main-container-secondline .mejs-video .mejs-button.mejs-playpause-button.mejs-play,
+body #main-container-secondline .mejs-video .mejs-button.mejs-playpause-button.mejs-pause,
+body #main-container-secondline .mejs-video .mejs-button.mejs-playpause-button.mejs-replay {
+    border: none !important;
+}
+
+body #main-container-secondline .mejs-video .mejs-button.mejs-playpause-button.mejs-play button:before,
+body #main-container-secondline .mejs-video .mejs-button.mejs-playpause-button.mejs-pause button:before,
+body #main-container-secondline .mejs-video .mejs-button.mejs-playpause-button.mejs-replay button:before {
+    font-size: 32px !important;
+    position: relative;
+    left: 10px;
+    color: #fff;
+}
+
+body #main-container-secondline .mejs-video .mejs-button.mejs-volume-button.mejs-mute button:before,
+body #main-container-secondline .mejs-video .mejs-inner .mejs-controls .mejs-fullscreen-button button:before {
+    color:#fff !important;    
+}
+
+body #main-container-secondline .mejs-video .mejs-inner .mejs-controls .mejs-fullscreen-button button:before {
+    font-size:13px;
+    position:relative;
+    top:1px;
+}
+
+/* AUDIO PLAYLIST STYLES */
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist {
+    padding: 0;
+    background: none;
+    border: none;
+	margin: 100px 0 90px 0;
+	max-width: 100%;
+    font-size: initial !important;
+}
+
+body.secondline-fancy-player #main-container-secondline #page-title-slt-post-page .wp-playlist.secondline_playlist,
+body.secondline-fancy-player #main-container-secondline #page-title-slt-post-page .secondline_playlist {
+	max-width: 80%;
+    margin: 150px auto 0 auto;
+}
+
+body.single-post #main-container-secondline #page-title-slt-post-page .single-player-container-secondline .embed-player-single-slt .wp-playlist .mejs-container {
+	width: 100% !important;
+}
+
+body.secondline-fancy-player .mejs-playlist-item-content input[type="radio"],
+body.secondline-fancy-player .wp-playlist-prev,
+body.secondline-fancy-player .wp-playlist-next {
+    display: none !important;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-playlist-layer ul,
+body.secondline-fancy-player #main-container-secondline .mejs-playlist-layer li{
+    list-style: none !important;
+	padding-left:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-left:0;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector ul,
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector li {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body.secondline-fancy-player .mejs-playlist-layer {
+	width: 100% !important;
+}
+
+body.secondline-fancy-player .secondline_playlist {
+	min-height:400px;
+    transition: all .3s ease-in-out;
+    margin-bottom: 90px;
+}
+
+body.secondline-fancy-player .secondline_playlist.fluid_playlist_height {
+	min-height:200px;
+	transition: all .3s ease-in-out;
+	max-height:200px;
+}
+
+
+body.secondline-fancy-player .mejs-playlist-current.mejs-layer {
+    position: absolute;
+    top:-160px;
+    background: #191919;
+    display:block;
+    overflow:hidden;
+    height: 150px !important;
+	width: 100% !important;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-controls {
+	background: #191919;
+	border-top: 1px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid rgba(255,255,255,.1);
+    padding-top: 4px;
+    padding-bottom: 3px;
+	height: 50px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-playpause-button button:hover {
+    background: none !important;    
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector li:nth-child(2n) {
+    background: rgba(0,0,0,0.03) !important;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist-item,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-controls {
+	border-color: rgba(0,0,0,.2);
+}
+
+body.secondline-fancy-player .mejs-playlist-current.mejs-layer img, body.secondline-fancy-player .mejs-playlist-current.mejs-layer p span {
+	display:inline-block;
+	margin-right: 20px;
+}
+
+body.secondline-fancy-player .mejs-playlist-current.mejs-layer img {
+    float:left;
+    height: auto;
+    max-width: 250px;
+    max-height: 100%;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer p span {
+    max-width: 100%;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist .mejs-time-rail {
+    max-width: 45%;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-playlist-current.mejs-layer p {
+	margin: 20px 0 0 0;
+	font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+body.secondline-fancy-player .mejs-playlist-item-thumbnail {
+    max-width: 50px;
+    min-width: 50px;
+	display:inline-block;
+	margin-right: 20px;
+}
+
+body.secondline-fancy-player .mejs-playlist-item-thumbnail img{
+	border-radius:1px;
+}
+
+body.secondline-fancy-player label.mejs-playlist-selector-label.wp-playlist-item-title span,
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector span img {
+    display:none !important;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-playlist-layer ul.mejs-playlist-selector-list.wp-playlist-tracks,
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector {
+    position: relative;
+	top: 40px;
+    max-height: 500px;
+    overflow-y: auto;
+	transition: all .3s ease-in-out;
+}
+
+body.secondline-fancy-player #main-container-secondline .mejs-container.playlist_hidden .mejs-playlist-layer ul.mejs-playlist-selector-list.wp-playlist-tracks,
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .playlist_hidden .mejs-playlist-layer.mejs-playlist-selector {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all .3s ease-in-out;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist-tracks,
+body.secondline-fancy-player #main-container-secondline .wp-playlist-item,
+body.secondline-fancy-player #main-container-secondline .mejs-layers,
+body.secondline-fancy-player .wp-playlist-current-item,
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector ul,
+body.secondline-fancy-player #main-container-secondline .secondline-themes-playlist-element .mejs-playlist-layer.mejs-playlist-selector li {
+	background: #191919;
+}
+
+body.secondline-fancy-player .mejs-playlist-item-inner {
+    padding: 12px;
+    display: flex;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist-item-title {
+	font-size: 16px;
+	font-weight: 700;
+    color: #fff;
+}
+
+body.secondline-fancy-player .mejs-playlist-item-description {
+    font-size: 85%;
+    display: inline-block;
+}
+
+body.secondline-fancy-player .wp-playlist-current-item {
+	margin-bottom:0;
+	padding-bottom: 0;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-next-button button,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-prev-button button {
+	height: 24px;
+    width: 24px;
+    font-size: 24px;
+    margin: 8px 3px;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button {
+	margin: 0 10px;	
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button button,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button button {
+	width: 36px;
+	height: 36px;
+	position: relative;
+    top: -7px;
+    left: 13px;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button.mejs-replay button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button.mejs-replay button:before {
+	display:none;
+}
+
+body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button button:before {
+	font-size: 36px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button {
+    border: 0;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-next-button:hover button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-prev-button:hover button:before,
+body.secondline-fancy-player #main-container-secondline .wp-playlist.wp-audio-playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button:hover button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-inner .mejs-controls .mejs-playpause-button:hover button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist button.playlist-toggle:hover,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist button:hover,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button:hover button:before {
+	opacity: .7;
+	transition: opacity 150ms ease-in-out;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-next-button button:before,
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-prev-button button:before {
+	content: "\e905";
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-prev-button button {
+	transform: rotate(-180deg);
+	left: 5px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-skip-back-button {
+	margin-left: 35px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-button.mejs-jump-forward-button {
+	margin-left: -7px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist .mejs-container .mejs-button.mejs-speed-button {
+	margin-left: 5px;
+	margin-right: 20px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist ul.mejs-speed-selector-list {
+	left:-6px;
+}
+
+body.secondline-fancy-player #main-container-secondline .secondline_playlist button.playlist-toggle {
+	background: transparent;
+	color: #fff;
+	border:0;
+	position: relative;
+}
+
+body.secondline-fancy-player .no-thumb-slt:before {
+    font-size: 50px;
+	margin-right: 20px;
+}
+
+body.secondline-fancy-player .mejs-playlist-current.mejs-layer img[src=""]:before {
+	content:"\f03e";
+    font-size: 110px;
+    color: #999;
+    margin-left: 15px;
+	font-family:Font Awesome\ 5 Free;
+	-webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+	font-weight: 900;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;	
+}
+
+body.secondline-fancy-player .mejs-playlist-item-inner img,
+body.secondline-fancy-player .mejs-playlist-item-inner i,
+body.secondline-fancy-player .mejs-playlist-item-inner {
+    cursor: pointer;
+}

@@ -1,0 +1,1723 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SecondLine Custom Addons\n"
+"POT-Creation-Date: 2019-12-19 16:00+0100\n"
+"PO-Revision-Date: 2019-12-19 16:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: secondline-custom.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: elements/post-addon.php:14
+msgid "SecondLine - Post Grid"
+msgstr ""
+
+#: elements/post-addon.php:36
+msgid "Post List Settings"
+msgstr ""
+
+#: elements/post-addon.php:45 elements/slider-addon.php:42
+msgid "Post Count"
+msgstr ""
+
+#: elements/post-addon.php:54 elements/show-carousel-addon.php:54
+#: elements/show-grid-addon.php:54
+msgid "Columns"
+msgstr ""
+
+#: elements/post-addon.php:61
+msgid "1 Column"
+msgstr ""
+
+#: elements/post-addon.php:62 elements/show-carousel-addon.php:61
+#: elements/show-grid-addon.php:61
+msgid "2 Columns"
+msgstr ""
+
+#: elements/post-addon.php:63 elements/show-carousel-addon.php:62
+#: elements/show-grid-addon.php:62
+msgid "3 Columns"
+msgstr ""
+
+#: elements/post-addon.php:64 elements/show-carousel-addon.php:63
+#: elements/show-grid-addon.php:63
+msgid "4 Columns"
+msgstr ""
+
+#: elements/post-addon.php:65 elements/show-carousel-addon.php:64
+#: elements/show-grid-addon.php:64
+msgid "5 Columns"
+msgstr ""
+
+#: elements/post-addon.php:66 elements/show-carousel-addon.php:65
+#: elements/show-grid-addon.php:65
+msgid "6 Columns"
+msgstr ""
+
+#: elements/post-addon.php:79 elements/post-addon.php:1127
+#: elements/show-carousel-addon.php:78 elements/show-grid-addon.php:78
+#: elements/slider-addon.php:798
+msgid "Margin"
+msgstr ""
+
+#: elements/post-addon.php:106 elements/show-grid-addon.php:105
+msgid "Masonry Layout"
+msgstr ""
+
+#: elements/post-addon.php:117 elements/show-grid-addon.php:115
+msgid "Force Image Height"
+msgstr ""
+
+#: elements/post-addon.php:127
+msgid "Post Pagination"
+msgstr ""
+
+#: elements/post-addon.php:131 elements/show-grid-addon.php:130
+msgid "No Pagination"
+msgstr ""
+
+#: elements/post-addon.php:132 elements/show-grid-addon.php:131
+msgid "Default Pagination"
+msgstr ""
+
+#: elements/post-addon.php:133
+msgid "Load More Posts"
+msgstr ""
+
+#: elements/post-addon.php:134 elements/show-grid-addon.php:133
+msgid "Inifinite Scroll"
+msgstr ""
+
+#: elements/post-addon.php:142 elements/show-grid-addon.php:141
+msgid "Load More Text"
+msgstr ""
+
+#: elements/post-addon.php:155
+msgid "Excerpt Word Limit"
+msgstr ""
+
+#: elements/post-addon.php:165 elements/show-carousel-addon.php:160
+#: elements/show-grid-addon.php:164 elements/single-post-addon.php:109
+msgid "Read More Text"
+msgstr ""
+
+#: elements/post-addon.php:175 elements/show-carousel-addon.php:170
+#: elements/show-grid-addon.php:174 elements/single-post-addon.php:119
+msgid "Read More Icon"
+msgstr ""
+
+#: elements/post-addon.php:189 elements/single-post-addon.php:133
+msgid "Post Layout"
+msgstr ""
+
+#: elements/post-addon.php:197 elements/show-carousel-addon.php:192
+#: elements/show-grid-addon.php:196 elements/single-post-addon.php:141
+msgid "Image Transparency on Hover\t"
+msgstr ""
+
+#: elements/post-addon.php:220
+msgid "Featured Image Display"
+msgstr ""
+
+#: elements/post-addon.php:231 elements/show-carousel-addon.php:239
+#: elements/show-grid-addon.php:244
+msgid "Title Display"
+msgstr ""
+
+#: elements/post-addon.php:243 elements/show-carousel-addon.php:251
+#: elements/show-grid-addon.php:256 elements/single-post-addon.php:187
+#: elements/slider-addon.php:154
+msgid "Category Display"
+msgstr ""
+
+#: elements/post-addon.php:253 elements/single-post-addon.php:197
+#: elements/slider-addon.php:164
+msgid "Author Display"
+msgstr ""
+
+#: elements/post-addon.php:263 elements/single-post-addon.php:207
+#: elements/slider-addon.php:174
+msgid "Date Display"
+msgstr ""
+
+#: elements/post-addon.php:273 elements/single-post-addon.php:217
+#: elements/slider-addon.php:184
+msgid "Comment Display"
+msgstr ""
+
+#: elements/post-addon.php:283 elements/single-post-addon.php:227
+#: elements/slider-addon.php:194
+msgid "Duration Display"
+msgstr ""
+
+#: elements/post-addon.php:293 elements/show-carousel-addon.php:283
+msgid "Excerpt Display"
+msgstr ""
+
+#: elements/post-addon.php:303 elements/show-carousel-addon.php:293
+#: elements/show-grid-addon.php:296 elements/single-post-addon.php:247
+msgid "Read More Display"
+msgstr ""
+
+#: elements/post-addon.php:313 elements/single-post-addon.php:257
+#: elements/slider-addon.php:214
+msgid "Audio Player Display"
+msgstr ""
+
+#: elements/post-addon.php:323 elements/show-carousel-addon.php:303
+#: elements/show-grid-addon.php:306
+msgid "Content Area Display"
+msgstr ""
+
+#: elements/post-addon.php:337
+msgid "Post Query"
+msgstr ""
+
+#: elements/post-addon.php:344 elements/slider-addon.php:128
+msgid "Select Post Type"
+msgstr ""
+
+#: elements/post-addon.php:346 elements/slider-addon.php:130
+msgid ""
+"Select the post type to display. This feature works for the Post and Podcast "
+"types, but is experimental on others."
+msgstr ""
+
+#: elements/post-addon.php:357
+msgid "Narrow by Category"
+msgstr ""
+
+#: elements/post-addon.php:358 elements/show-carousel-addon.php:326
+#: elements/show-grid-addon.php:329 elements/show-slider-addon.php:52
+#: elements/slider-addon.php:64
+msgid ""
+"Enter category slugs to display a specific category. Add-in multiple "
+"category slugs seperated by a comma to use multiple categories. "
+msgstr ""
+
+#: elements/post-addon.php:367 elements/show-carousel-addon.php:335
+#: elements/show-grid-addon.php:338 elements/show-slider-addon.php:75
+#: elements/slider-addon.php:87
+msgid "Order By"
+msgstr ""
+
+#: elements/post-addon.php:371 elements/show-carousel-addon.php:339
+#: elements/show-grid-addon.php:342 elements/show-slider-addon.php:79
+#: elements/slider-addon.php:91
+msgid "Default - Date"
+msgstr ""
+
+#: elements/post-addon.php:372 elements/slider-addon.php:92
+msgid "Post Title"
+msgstr ""
+
+#: elements/post-addon.php:373 elements/show-carousel-addon.php:341
+#: elements/show-grid-addon.php:344 elements/show-slider-addon.php:81
+#: elements/slider-addon.php:93
+msgid "Menu Order"
+msgstr ""
+
+#: elements/post-addon.php:374 elements/show-carousel-addon.php:342
+#: elements/show-grid-addon.php:345 elements/show-slider-addon.php:82
+#: elements/slider-addon.php:94
+msgid "Last Modified"
+msgstr ""
+
+#: elements/post-addon.php:375 elements/show-carousel-addon.php:343
+#: elements/show-grid-addon.php:346 elements/show-slider-addon.php:83
+#: elements/slider-addon.php:95
+msgid "Comment Count"
+msgstr ""
+
+#: elements/post-addon.php:376 elements/show-carousel-addon.php:344
+#: elements/show-grid-addon.php:347 elements/show-slider-addon.php:84
+#: elements/slider-addon.php:96
+msgid "Random"
+msgstr ""
+
+#: elements/post-addon.php:385 elements/show-carousel-addon.php:353
+#: elements/show-grid-addon.php:356 elements/show-slider-addon.php:93
+#: elements/slider-addon.php:105
+msgid "Order"
+msgstr ""
+
+#: elements/post-addon.php:389 elements/show-carousel-addon.php:357
+#: elements/show-grid-addon.php:360 elements/show-slider-addon.php:97
+#: elements/slider-addon.php:109
+msgid "Ascending"
+msgstr ""
+
+#: elements/post-addon.php:390 elements/show-carousel-addon.php:358
+#: elements/show-grid-addon.php:361 elements/show-slider-addon.php:98
+#: elements/slider-addon.php:110
+msgid "Descending"
+msgstr ""
+
+#: elements/post-addon.php:399 elements/show-carousel-addon.php:367
+#: elements/show-grid-addon.php:370 elements/show-slider-addon.php:106
+#: elements/slider-addon.php:118
+msgid "Offset Count"
+msgstr ""
+
+#: elements/post-addon.php:402
+msgid "Use this to skip posts (Example: Insert 5 to skip the first 5 posts.)"
+msgstr ""
+
+#: elements/post-addon.php:410 elements/show-grid-addon.php:381
+msgid "Category Sorting"
+msgstr ""
+
+#: elements/post-addon.php:411
+msgid "Sort by Post Caregories"
+msgstr ""
+
+#: elements/post-addon.php:420
+msgid "Sorting Text for All Posts"
+msgstr ""
+
+#: elements/post-addon.php:423 elements/show-grid-addon.php:394
+msgid "All"
+msgstr ""
+
+#: elements/post-addon.php:433 elements/show-carousel-addon.php:381
+#: elements/show-grid-addon.php:404 elements/show-slider-addon.php:297
+#: elements/single-post-addon.php:273 elements/slider-addon.php:362
+msgid "Main Styles"
+msgstr ""
+
+#: elements/post-addon.php:442 elements/post-addon.php:1023
+#: elements/show-carousel-addon.php:390 elements/show-grid-addon.php:413
+#: elements/single-post-addon.php:282 elements/single-post-addon.php:663
+#: elements/slider-addon.php:694
+msgid "Main Background Color"
+msgstr ""
+
+#: elements/post-addon.php:455 elements/show-carousel-addon.php:402
+#: elements/show-grid-addon.php:426 elements/single-post-addon.php:296
+msgid "Main Border Color"
+msgstr ""
+
+#: elements/post-addon.php:466 elements/show-carousel-addon.php:413
+#: elements/show-grid-addon.php:437 elements/show-slider-addon.php:333
+#: elements/single-post-addon.php:357 elements/slider-addon.php:398
+msgid "Content Padding"
+msgstr ""
+
+#: elements/post-addon.php:480 elements/post-addon.php:502
+msgid "Image Width (%, 1 Column only)"
+msgstr ""
+
+#: elements/post-addon.php:528 elements/show-carousel-addon.php:430
+#: elements/show-grid-addon.php:517 elements/show-slider-addon.php:436
+#: elements/single-post-addon.php:376 elements/slider-addon.php:552
+msgid "Title Styles"
+msgstr ""
+
+#: elements/post-addon.php:537 elements/show-carousel-addon.php:439
+#: elements/show-grid-addon.php:526 elements/show-slider-addon.php:446
+#: elements/single-post-addon.php:385 elements/slider-addon.php:562
+msgid "Title Color"
+msgstr ""
+
+#: elements/post-addon.php:550 elements/show-carousel-addon.php:451
+#: elements/show-grid-addon.php:539 elements/single-post-addon.php:398
+msgid "Title Hover Color"
+msgstr ""
+
+#: elements/post-addon.php:563 elements/show-carousel-addon.php:464
+#: elements/show-grid-addon.php:552 elements/single-post-addon.php:439
+msgid "Title Margin"
+msgstr ""
+
+#: elements/post-addon.php:577 elements/post-addon.php:628
+#: elements/post-addon.php:664 elements/post-addon.php:714
+#: elements/post-addon.php:793 elements/post-addon.php:1000
+#: elements/show-carousel-addon.php:477 elements/show-carousel-addon.php:523
+#: elements/show-carousel-addon.php:571 elements/show-carousel-addon.php:606
+#: elements/show-carousel-addon.php:691 elements/show-grid-addon.php:504
+#: elements/show-grid-addon.php:566 elements/show-grid-addon.php:612
+#: elements/show-grid-addon.php:648 elements/show-grid-addon.php:733
+#: elements/show-grid-addon.php:794 elements/show-grid-addon.php:1002
+#: elements/show-slider-addon.php:476 elements/show-slider-addon.php:568
+#: elements/show-slider-addon.php:653 elements/single-post-addon.php:453
+#: elements/single-post-addon.php:529 elements/single-post-addon.php:604
+#: elements/single-post-addon.php:639 elements/slider-addon.php:538
+#: elements/slider-addon.php:592 elements/slider-addon.php:673
+msgid "Typography"
+msgstr ""
+
+#: elements/post-addon.php:590 elements/slider-addon.php:498
+msgid "Meta Styles"
+msgstr ""
+
+#: elements/post-addon.php:599 elements/slider-addon.php:506
+msgid "Meta Color"
+msgstr ""
+
+#: elements/post-addon.php:615
+msgid "Meta Margin"
+msgstr ""
+
+#: elements/post-addon.php:641 elements/show-carousel-addon.php:584
+#: elements/show-grid-addon.php:625 elements/show-slider-addon.php:583
+#: elements/single-post-addon.php:542 elements/slider-addon.php:603
+msgid "Excerpt Styles"
+msgstr ""
+
+#: elements/post-addon.php:650 elements/show-carousel-addon.php:593
+#: elements/show-grid-addon.php:634 elements/show-slider-addon.php:592
+#: elements/single-post-addon.php:551 elements/slider-addon.php:612
+msgid "Excerpt Color"
+msgstr ""
+
+#: elements/post-addon.php:674 elements/show-carousel-addon.php:616
+#: elements/show-grid-addon.php:658
+msgid "Excerpt Padding"
+msgstr ""
+
+#: elements/post-addon.php:693 elements/show-carousel-addon.php:635
+#: elements/show-grid-addon.php:677 elements/single-post-addon.php:618
+msgid "Read More Styles"
+msgstr ""
+
+#: elements/post-addon.php:702 elements/show-carousel-addon.php:644
+#: elements/show-grid-addon.php:686 elements/single-post-addon.php:627
+msgid "Read More Color"
+msgstr ""
+
+#: elements/post-addon.php:723
+msgid "Read More Icon Font Size (px)"
+msgstr ""
+
+#: elements/post-addon.php:746 elements/show-grid-addon.php:747
+msgid "Load More Styles"
+msgstr ""
+
+#: elements/post-addon.php:755
+msgid "Icon"
+msgstr ""
+
+#: elements/post-addon.php:763 elements/show-grid-addon.php:764
+msgid "Icon Spacing"
+msgstr ""
+
+#: elements/post-addon.php:780 elements/post-addon.php:959
+#: elements/show-grid-addon.php:781 elements/show-grid-addon.php:961
+msgid "Padding"
+msgstr ""
+
+#: elements/post-addon.php:804 elements/show-grid-addon.php:805
+msgid "Normal"
+msgstr ""
+
+#: elements/post-addon.php:809 elements/post-addon.php:836
+#: elements/show-grid-addon.php:810 elements/show-grid-addon.php:837
+msgid "Text Color"
+msgstr ""
+
+#: elements/post-addon.php:820 elements/post-addon.php:847
+#: elements/show-grid-addon.php:821 elements/show-grid-addon.php:848
+#: elements/show-slider-addon.php:512
+msgid "Background Color"
+msgstr ""
+
+#: elements/post-addon.php:831 elements/show-grid-addon.php:832
+msgid "Hover"
+msgstr ""
+
+#: elements/post-addon.php:867 elements/show-grid-addon.php:868
+msgid "Filtering Styles"
+msgstr ""
+
+#: elements/post-addon.php:876 elements/show-grid-addon.php:877
+msgid "Bottom Border"
+msgstr ""
+
+#: elements/post-addon.php:888 elements/show-grid-addon.php:889
+#: elements/show-slider-addon.php:500
+msgid "Color"
+msgstr ""
+
+#: elements/post-addon.php:899 elements/show-grid-addon.php:900
+msgid "Selected Color"
+msgstr ""
+
+#: elements/post-addon.php:911 elements/show-grid-addon.php:913
+msgid "Default Border"
+msgstr ""
+
+#: elements/post-addon.php:922 elements/show-grid-addon.php:925
+msgid "Selected Border"
+msgstr ""
+
+#: elements/post-addon.php:935 elements/show-grid-addon.php:938
+msgid "Default Background"
+msgstr ""
+
+#: elements/post-addon.php:946 elements/show-grid-addon.php:949
+msgid "Selected/Hover Background"
+msgstr ""
+
+#: elements/post-addon.php:971 elements/show-grid-addon.php:973
+msgid "Filters Align"
+msgstr ""
+
+#: elements/post-addon.php:976 elements/show-grid-addon.php:978
+#: elements/show-slider-addon.php:350 elements/show-slider-addon.php:629
+#: elements/single-post-addon.php:415 elements/single-post-addon.php:494
+#: elements/single-post-addon.php:580 elements/slider-addon.php:415
+#: elements/slider-addon.php:649 inc/custom-meta.php:73
+msgid "Left"
+msgstr ""
+
+#: elements/post-addon.php:980 elements/show-grid-addon.php:982
+#: elements/show-slider-addon.php:354 elements/show-slider-addon.php:633
+#: elements/single-post-addon.php:419 elements/single-post-addon.php:498
+#: elements/single-post-addon.php:584 elements/slider-addon.php:419
+#: elements/slider-addon.php:653
+msgid "Center"
+msgstr ""
+
+#: elements/post-addon.php:984 elements/show-grid-addon.php:986
+#: elements/show-slider-addon.php:358 elements/show-slider-addon.php:637
+#: elements/single-post-addon.php:423 elements/single-post-addon.php:502
+#: elements/single-post-addon.php:588 elements/slider-addon.php:423
+#: elements/slider-addon.php:657 inc/custom-meta.php:72
+msgid "Right"
+msgstr ""
+
+#: elements/post-addon.php:1014 elements/single-post-addon.php:654
+#: elements/slider-addon.php:685
+msgid "Media Player Styles"
+msgstr ""
+
+#: elements/post-addon.php:1036 elements/slider-addon.php:707
+msgid "Time Text Color"
+msgstr ""
+
+#: elements/post-addon.php:1052 elements/single-post-addon.php:675
+#: elements/slider-addon.php:723
+msgid "Progressed Background Color"
+msgstr ""
+
+#: elements/post-addon.php:1065 elements/slider-addon.php:736
+msgid "Media Buttons Color"
+msgstr ""
+
+#: elements/post-addon.php:1079 elements/slider-addon.php:750
+msgid "Media Buttons Hover Color"
+msgstr ""
+
+#: elements/post-addon.php:1093 elements/slider-addon.php:764
+msgid "Right Meta Buttons Color"
+msgstr ""
+
+#: elements/post-addon.php:1109 elements/single-post-addon.php:699
+#: elements/slider-addon.php:780
+msgid "Knob / Control Color"
+msgstr ""
+
+#: elements/post-addon.php:1306 elements/show-grid-addon.php:1170
+msgid "&lsaquo;"
+msgstr ""
+
+#: elements/post-addon.php:1307 elements/show-grid-addon.php:1171
+msgid "&rsaquo;"
+msgstr ""
+
+#: elements/post-addon.php:1386 elements/show-grid-addon.php:1250
+msgid "No more posts"
+msgstr ""
+
+#: elements/show-carousel-addon.php:14
+msgid "SecondLine - Show Carousel"
+msgstr ""
+
+#: elements/show-carousel-addon.php:36
+msgid "Show Carousel Settings"
+msgstr ""
+
+#: elements/show-carousel-addon.php:45 elements/show-grid-addon.php:45
+#: elements/show-slider-addon.php:42
+msgid "Show Count"
+msgstr ""
+
+#: elements/show-carousel-addon.php:100
+msgid "Bullets Display"
+msgstr ""
+
+#: elements/show-carousel-addon.php:110
+msgid "Arrows Display"
+msgstr ""
+
+#: elements/show-carousel-addon.php:120
+msgid "Draggable Carousel"
+msgstr ""
+
+#: elements/show-carousel-addon.php:130
+msgid "Auto Scroll Carousel"
+msgstr ""
+
+#: elements/show-carousel-addon.php:140
+msgid "Match Items Height"
+msgstr ""
+
+#: elements/show-carousel-addon.php:150
+msgid "Exerpt Character Limit"
+msgstr ""
+
+#: elements/show-carousel-addon.php:184 elements/show-grid-addon.php:188
+msgid "Show Layout"
+msgstr ""
+
+#: elements/show-carousel-addon.php:214 elements/show-grid-addon.php:230
+msgid "Image Color Overlay"
+msgstr ""
+
+#: elements/show-carousel-addon.php:225 elements/show-grid-addon.php:218
+msgid "Show Image Background Color"
+msgstr ""
+
+#: elements/show-carousel-addon.php:261 elements/show-grid-addon.php:266
+msgid "Show Host Name Display"
+msgstr ""
+
+#: elements/show-carousel-addon.php:271 elements/show-grid-addon.php:276
+msgid "Show Host Image Display"
+msgstr ""
+
+#: elements/show-carousel-addon.php:317 elements/show-grid-addon.php:320
+msgid "Show Query"
+msgstr ""
+
+#: elements/show-carousel-addon.php:325 elements/show-grid-addon.php:328
+#: elements/show-slider-addon.php:51
+msgid "Narrow by Show Category"
+msgstr ""
+
+#: elements/show-carousel-addon.php:340 elements/show-grid-addon.php:343
+#: elements/show-slider-addon.php:80
+msgid "Show Title"
+msgstr ""
+
+#: elements/show-carousel-addon.php:370 elements/show-grid-addon.php:373
+msgid "Use this to skip shows (Example: Insert 5 to skip the first 5 shows.)"
+msgstr ""
+
+#: elements/show-carousel-addon.php:490 elements/show-grid-addon.php:579
+msgid "Show Host Styles"
+msgstr ""
+
+#: elements/show-carousel-addon.php:499 elements/show-grid-addon.php:588
+msgid "Show Host Color"
+msgstr ""
+
+#: elements/show-carousel-addon.php:510 elements/show-grid-addon.php:599
+msgid "Show Host Margin"
+msgstr ""
+
+#: elements/show-carousel-addon.php:536 elements/show-grid-addon.php:455
+msgid "Category Styles"
+msgstr ""
+
+#: elements/show-carousel-addon.php:545 elements/show-grid-addon.php:464
+msgid "Category Color"
+msgstr ""
+
+#: elements/show-carousel-addon.php:558 elements/show-grid-addon.php:490
+msgid "Category Margin"
+msgstr ""
+
+#: elements/show-carousel-addon.php:655 elements/show-grid-addon.php:697
+msgid "Read More Border Color"
+msgstr ""
+
+#: elements/show-carousel-addon.php:666 elements/show-grid-addon.php:708
+msgid "Read More Hover Color"
+msgstr ""
+
+#: elements/show-carousel-addon.php:677 elements/show-grid-addon.php:719
+msgid "Read More Hover Background Color"
+msgstr ""
+
+#: elements/show-grid-addon.php:14
+msgid "SecondLine - Show Grid"
+msgstr ""
+
+#: elements/show-grid-addon.php:36
+msgid "Show List Settings"
+msgstr ""
+
+#: elements/show-grid-addon.php:126
+msgid "Show Pagination"
+msgstr ""
+
+#: elements/show-grid-addon.php:132
+msgid "Load More Shows"
+msgstr ""
+
+#: elements/show-grid-addon.php:154
+msgid "Exerpt Word Limit"
+msgstr ""
+
+#: elements/show-grid-addon.php:286 elements/show-slider-addon.php:130
+#: elements/single-post-addon.php:237 elements/slider-addon.php:204
+msgid "Exerpt Display"
+msgstr ""
+
+#: elements/show-grid-addon.php:382
+msgid "Sort by Show Caregories"
+msgstr ""
+
+#: elements/show-grid-addon.php:391
+msgid "Sorting Text for All Shows"
+msgstr ""
+
+#: elements/show-grid-addon.php:477
+msgid "Category Border"
+msgstr ""
+
+#: elements/show-slider-addon.php:14
+msgid "SecondLine - Show Slider"
+msgstr ""
+
+#: elements/show-slider-addon.php:35 elements/slider-addon.php:35
+msgid "Slider Settings"
+msgstr ""
+
+#: elements/show-slider-addon.php:62 elements/single-post-addon.php:99
+#: elements/slider-addon.php:74
+msgid "Exerpt Word Count"
+msgstr ""
+
+#: elements/show-slider-addon.php:121 elements/slider-addon.php:145
+msgid "Slider Layout"
+msgstr ""
+
+#: elements/show-slider-addon.php:140
+msgid "Show Page Button"
+msgstr ""
+
+#: elements/show-slider-addon.php:150
+msgid "Show Page Button Text"
+msgstr ""
+
+#: elements/show-slider-addon.php:152
+msgid "View Show"
+msgstr ""
+
+#: elements/show-slider-addon.php:164 elements/slider-addon.php:229
+msgid "Slider Options"
+msgstr ""
+
+#: elements/show-slider-addon.php:171 elements/slider-addon.php:236
+msgid "Slider Height"
+msgstr ""
+
+#: elements/show-slider-addon.php:197 elements/slider-addon.php:262
+msgid "Slide Transition"
+msgstr ""
+
+#: elements/show-slider-addon.php:201 elements/slider-addon.php:266
+msgid "Fade"
+msgstr ""
+
+#: elements/show-slider-addon.php:209 elements/slider-addon.php:274
+msgid "Transition Speed"
+msgstr ""
+
+#: elements/show-slider-addon.php:218 elements/slider-addon.php:283
+msgid "Text Animation"
+msgstr ""
+
+#: elements/show-slider-addon.php:222 elements/slider-addon.php:287
+msgid "No Animation"
+msgstr ""
+
+#: elements/show-slider-addon.php:223 elements/slider-addon.php:288
+msgid "Zoom in"
+msgstr ""
+
+#: elements/show-slider-addon.php:224 elements/slider-addon.php:289
+msgid "Zoom Out"
+msgstr ""
+
+#: elements/show-slider-addon.php:225 elements/slider-addon.php:290
+msgid "Fade Down"
+msgstr ""
+
+#: elements/show-slider-addon.php:226 elements/slider-addon.php:291
+msgid "Fade Up"
+msgstr ""
+
+#: elements/show-slider-addon.php:227 elements/slider-addon.php:292
+msgid "Fade Right"
+msgstr ""
+
+#: elements/show-slider-addon.php:228 elements/slider-addon.php:293
+msgid "Fade Left"
+msgstr ""
+
+#: elements/show-slider-addon.php:236 elements/slider-addon.php:301
+msgid "Autoplay"
+msgstr ""
+
+#: elements/show-slider-addon.php:246 elements/slider-addon.php:311
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elements/show-slider-addon.php:256 elements/slider-addon.php:321
+msgid "Pause on Hover"
+msgstr ""
+
+#: elements/show-slider-addon.php:265 elements/slider-addon.php:330
+msgid "Slide Arrows"
+msgstr ""
+
+#: elements/show-slider-addon.php:269 elements/show-slider-addon.php:283
+#: elements/slider-addon.php:334 elements/slider-addon.php:348
+msgid "Always Visible"
+msgstr ""
+
+#: elements/show-slider-addon.php:270 elements/show-slider-addon.php:284
+#: elements/slider-addon.php:335 elements/slider-addon.php:349
+msgid "Visible on Hover"
+msgstr ""
+
+#: elements/show-slider-addon.php:271 elements/show-slider-addon.php:285
+#: elements/slider-addon.php:336 elements/slider-addon.php:350
+msgid "Hidden"
+msgstr ""
+
+#: elements/show-slider-addon.php:279 elements/slider-addon.php:344
+msgid "Slide Bullets"
+msgstr ""
+
+#: elements/show-slider-addon.php:306 elements/slider-addon.php:371
+msgid "Content Width"
+msgstr ""
+
+#: elements/show-slider-addon.php:345 elements/slider-addon.php:410
+msgid "Align"
+msgstr ""
+
+#: elements/show-slider-addon.php:372 elements/slider-addon.php:437
+msgid "Vertical Position"
+msgstr ""
+
+#: elements/show-slider-addon.php:378 elements/slider-addon.php:443
+msgid "Top"
+msgstr ""
+
+#: elements/show-slider-addon.php:382 elements/slider-addon.php:447
+msgid "Middle"
+msgstr ""
+
+#: elements/show-slider-addon.php:386 elements/slider-addon.php:451
+msgid "Bottom"
+msgstr ""
+
+#: elements/show-slider-addon.php:405 elements/slider-addon.php:470
+msgid "Slider Background Color"
+msgstr ""
+
+#: elements/show-slider-addon.php:418 elements/slider-addon.php:483
+msgid "Slider Overlay Color"
+msgstr ""
+
+#: elements/show-slider-addon.php:458 elements/slider-addon.php:520
+#: elements/slider-addon.php:574
+msgid "Margin Bottom"
+msgstr ""
+
+#: elements/show-slider-addon.php:490
+msgid "Show Button Styles"
+msgstr ""
+
+#: elements/show-slider-addon.php:525
+msgid "Hover Color"
+msgstr ""
+
+#: elements/show-slider-addon.php:537
+msgid "Background Hover Color"
+msgstr ""
+
+#: elements/show-slider-addon.php:550
+msgid "Top Margin"
+msgstr ""
+
+#: elements/show-slider-addon.php:605 elements/single-post-addon.php:563
+#: elements/slider-addon.php:625
+msgid "Excerpt Margin"
+msgstr ""
+
+#: elements/show-slider-addon.php:624 elements/single-post-addon.php:410
+#: elements/single-post-addon.php:489 elements/single-post-addon.php:575
+msgid "Title Align"
+msgstr ""
+
+#: elements/single-post-addon.php:14
+msgid "SecondLine - Single Post"
+msgstr ""
+
+#: elements/single-post-addon.php:36
+msgid "Single Post Settings"
+msgstr ""
+
+#: elements/single-post-addon.php:43
+msgid "Choose Specific Post"
+msgstr ""
+
+#: elements/single-post-addon.php:53
+msgid "Left/Right Margin (In %)"
+msgstr ""
+
+#: elements/single-post-addon.php:77 elements/single-post-addon.php:714
+msgid "Top Location (In px)"
+msgstr ""
+
+#: elements/single-post-addon.php:163
+msgid "Post Image Background Color"
+msgstr ""
+
+#: elements/single-post-addon.php:176
+msgid "Image Display"
+msgstr ""
+
+#: elements/single-post-addon.php:308
+msgid "Main Box Shadow"
+msgstr ""
+
+#: elements/single-post-addon.php:314
+msgid "On"
+msgstr ""
+
+#: elements/single-post-addon.php:315
+msgid "Off"
+msgstr ""
+
+#: elements/single-post-addon.php:322
+msgid "Box Shadow Options"
+msgstr ""
+
+#: elements/single-post-addon.php:334
+msgid "Position"
+msgstr ""
+
+#: elements/single-post-addon.php:337
+msgid "Outline"
+msgstr ""
+
+#: elements/single-post-addon.php:338
+msgid "Inset"
+msgstr ""
+
+#: elements/single-post-addon.php:466
+msgid "Author/Date Styles"
+msgstr ""
+
+#: elements/single-post-addon.php:475
+msgid "Author/Date Color"
+msgstr ""
+
+#: elements/single-post-addon.php:516
+msgid "Author/Date Margin"
+msgstr ""
+
+#: elements/single-post-addon.php:687
+msgid "Buttons Color"
+msgstr ""
+
+#: elements/slider-addon.php:14
+msgid "SecondLine - Post Slider"
+msgstr ""
+
+#: elements/slider-addon.php:52
+msgid "Narrow by Filtering Tags"
+msgstr ""
+
+#: elements/slider-addon.php:53
+msgid ""
+"Enter filtering tags to display posts with a specific tag. Add-in multiple "
+"filtering tags seperated by a comma to use multiple tags. "
+msgstr ""
+
+#: elements/slider-addon.php:63
+msgid "Narrow by Post Category"
+msgstr ""
+
+#: elements/slider-addon.php:644
+msgid "Excerpt Align"
+msgstr ""
+
+#: importer/parsers.php:42 importer/parsers.php:72 importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:84 importer/parsers.php:89 importer/parsers.php:306
+#: importer/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/radium-importer.php:201
+msgid "Demo already imported"
+msgstr ""
+
+#: importer/radium-importer.php:230
+msgid "Import Again"
+msgstr ""
+
+#: importer/radium-importer.php:234 importer/radium-importer.php:240
+msgid "Import Demo Data"
+msgstr ""
+
+#: importer/radium-importer.php:244
+msgid "Tips"
+msgstr ""
+
+#: importer/radium-importer.php:247
+msgid ""
+"The importer will not delete any pages, posts, or content.  It will only add "
+"content and adjust theme options."
+msgstr ""
+
+#: importer/radium-importer.php:248
+msgid ""
+"If the import times out or does not finish, please run the importer again."
+msgstr ""
+
+#: importer/radium-importer.php:249
+msgid ""
+"Running the importer mulitple times may duplicate your menu items. If you "
+"run the importer again, make sure to delete any navigation menus under "
+"Navigation > Menus.  You will not have delete any pages as those will not "
+"duplicate."
+msgstr ""
+
+#: importer/radium-importer.php:406
+msgid "Error importing settings! Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:418 importer/radium-importer.php:423
+msgid ""
+"Error importing settings! Please check that you uploaded a customizer export "
+"file."
+msgstr ""
+
+#: importer/radium-importer.php:717
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:788
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: importer/radium-importer.php:810
+msgid "Site does not support widget"
+msgstr ""
+
+#: importer/radium-importer.php:833
+msgid "Widget already exists"
+msgstr ""
+
+#: importer/radium-importer.php:882
+msgid "Imported"
+msgstr ""
+
+#: importer/radium-importer.php:885
+msgid "Imported to Inactive"
+msgstr ""
+
+#: importer/radium-importer.php:892
+msgid "No Title"
+msgstr ""
+
+#: importer/wordpress-importer.php:132 importer/wordpress-importer.php:141
+#: importer/wordpress-importer.php:192 importer/wordpress-importer.php:196
+#: importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:862
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:869
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:956
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer.php:969
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:1013
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer.php:1019
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1026
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:1031
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:1037
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1136
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1143
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1158
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1159
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: importer/wordpress-importer.php:1233
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: inc/custom-meta.php:55
+msgid "Page Settings"
+msgstr ""
+
+#: inc/custom-meta.php:61
+msgid "Sub-title"
+msgstr ""
+
+#: inc/custom-meta.php:67
+msgid "Sidebar Display"
+msgstr ""
+
+#: inc/custom-meta.php:71
+msgid "Hide Sidebar"
+msgstr ""
+
+#: inc/custom-meta.php:78 inc/custom-meta.php:157 inc/custom-meta.php:208
+msgid "Title Area Background Image"
+msgstr ""
+
+#: inc/custom-meta.php:85
+msgid "Disable Title Area"
+msgstr ""
+
+#: inc/custom-meta.php:105
+msgid "Display Settings"
+msgstr ""
+
+#: inc/custom-meta.php:111
+msgid "Disable Header"
+msgstr ""
+
+#: inc/custom-meta.php:117
+msgid "Disable Footer"
+msgstr ""
+
+#: inc/custom-meta.php:139
+msgid "Post Settings"
+msgstr ""
+
+#: inc/custom-meta.php:144
+msgid "Disable Featured Image on Post"
+msgstr ""
+
+#: inc/custom-meta.php:150
+msgid "Image Gallery"
+msgstr ""
+
+#: inc/custom-meta.php:164
+msgid "External Embed Code (SoundCloud, Libsyn, MixCloud etc.) "
+msgstr ""
+
+#: inc/custom-meta.php:172
+msgid "Parent Show Post"
+msgstr ""
+
+#: inc/custom-meta.php:195
+msgid "Show Settings"
+msgstr ""
+
+#: inc/custom-meta.php:200
+msgid "Disable Featured Image on Header"
+msgstr ""
+
+#: inc/custom-meta.php:216
+msgid "Header Show Description"
+msgstr ""
+
+#: inc/custom-meta.php:257
+msgid "Disable Episode List on Show Page?"
+msgstr ""
+
+#: inc/custom-meta.php:265
+msgid "Show Hosts"
+msgstr ""
+
+#: inc/custom-meta.php:272
+msgid "Show Hosts Avatar"
+msgstr ""
+
+#: inc/custom-meta.php:280
+msgid "Show Website Link"
+msgstr ""
+
+#: inc/custom-meta.php:287
+msgid "Show RSS Feed Link"
+msgstr ""
+
+#: inc/custom-meta.php:309
+msgid "Subscribe & Social Links"
+msgstr ""
+
+#: inc/custom-meta.php:314
+msgid "Disable Subscribe Button?"
+msgstr ""
+
+#: inc/custom-meta.php:325
+msgid "Add Subscribe Button Links"
+msgstr ""
+
+#: inc/custom-meta.php:328
+msgid "Subscribe Link {#}"
+msgstr ""
+
+#: inc/custom-meta.php:329
+msgid "Add Another Link"
+msgstr ""
+
+#: inc/custom-meta.php:330
+msgid "Remove Link"
+msgstr ""
+
+#: inc/custom-meta.php:342
+msgid "Amazon Alexa"
+msgstr ""
+
+#: inc/custom-meta.php:343
+msgid "Anchor"
+msgstr ""
+
+#: inc/custom-meta.php:344
+msgid "Apple Podcasts"
+msgstr ""
+
+#: inc/custom-meta.php:345
+msgid "Blubrry"
+msgstr ""
+
+#: inc/custom-meta.php:346
+msgid "Breaker"
+msgstr ""
+
+#: inc/custom-meta.php:347
+msgid "Bullhorn"
+msgstr ""
+
+#: inc/custom-meta.php:348
+msgid "Castbox"
+msgstr ""
+
+#: inc/custom-meta.php:349
+msgid "Castro"
+msgstr ""
+
+#: inc/custom-meta.php:350
+msgid "Deezer"
+msgstr ""
+
+#: inc/custom-meta.php:351
+msgid "Downcast"
+msgstr ""
+
+#: inc/custom-meta.php:352
+msgid "Google Play"
+msgstr ""
+
+#: inc/custom-meta.php:353
+msgid "Google Podcasts"
+msgstr ""
+
+#: inc/custom-meta.php:354
+msgid "iHeartRadio"
+msgstr ""
+
+#: inc/custom-meta.php:355
+msgid "iTunes"
+msgstr ""
+
+#: inc/custom-meta.php:356
+msgid "Laughable"
+msgstr ""
+
+#: inc/custom-meta.php:357
+msgid "Libsyn"
+msgstr ""
+
+#: inc/custom-meta.php:358
+msgid "Listen Notes"
+msgstr ""
+
+#: inc/custom-meta.php:359
+msgid "Miro"
+msgstr ""
+
+#: inc/custom-meta.php:360
+msgid "MixCloud"
+msgstr ""
+
+#: inc/custom-meta.php:361
+msgid "Overcast"
+msgstr ""
+
+#: inc/custom-meta.php:362
+msgid "Player.fm"
+msgstr ""
+
+#: inc/custom-meta.php:363
+msgid "Plex"
+msgstr ""
+
+#: inc/custom-meta.php:364
+msgid "PocketCasts"
+msgstr ""
+
+#: inc/custom-meta.php:365
+msgid "Podbean"
+msgstr ""
+
+#: inc/custom-meta.php:366
+msgid "Podcast.de"
+msgstr ""
+
+#: inc/custom-meta.php:367
+msgid "Podcast Addict"
+msgstr ""
+
+#: inc/custom-meta.php:368
+msgid "Podchaser"
+msgstr ""
+
+#: inc/custom-meta.php:369
+msgid "Podcoin"
+msgstr ""
+
+#: inc/custom-meta.php:370
+msgid "Podknife"
+msgstr ""
+
+#: inc/custom-meta.php:371
+msgid "Radio Public"
+msgstr ""
+
+#: inc/custom-meta.php:372
+msgid "RedCircle"
+msgstr ""
+
+#: inc/custom-meta.php:373
+msgid "RSS"
+msgstr ""
+
+#: inc/custom-meta.php:374
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/custom-meta.php:375
+msgid "Spotify"
+msgstr ""
+
+#: inc/custom-meta.php:376
+msgid "Spreaker"
+msgstr ""
+
+#: inc/custom-meta.php:377
+msgid "Stitcher"
+msgstr ""
+
+#: inc/custom-meta.php:378
+msgid "TuneIn"
+msgstr ""
+
+#: inc/custom-meta.php:379
+msgid "YouTube"
+msgstr ""
+
+#: inc/custom-meta.php:380
+msgid "Custom Link"
+msgstr ""
+
+#: inc/custom-meta.php:405
+msgid "Add Social Icon Links"
+msgstr ""
+
+#: inc/custom-meta.php:407
+msgid "Social Icon {#}"
+msgstr ""
+
+#: inc/custom-meta.php:408
+msgid "Add Another Icon"
+msgstr ""
+
+#: inc/custom-meta.php:409
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/custom-meta.php:417
+msgid "Select Icon"
+msgstr ""
+
+#: inc/custom-meta.php:448
+msgid "Author Settings"
+msgstr ""
+
+#: inc/custom-meta.php:454
+msgid "Author Information"
+msgstr ""
+
+#: inc/custom-meta.php:462
+msgid "Author Sub-headline"
+msgstr ""
+
+#: inc/custom-meta.php:463 inc/custom-meta.php:470 inc/custom-meta.php:477
+#: inc/custom-meta.php:484 inc/custom-meta.php:491 inc/custom-meta.php:499
+#: inc/custom-meta.php:506 inc/custom-meta.php:513 inc/custom-meta.php:521
+#: inc/custom-meta.php:528 inc/custom-meta.php:538 inc/custom-meta.php:547
+#: inc/custom-meta.php:554 inc/custom-meta.php:562 inc/custom-meta.php:572
+msgid "Leave blank to hide this field"
+msgstr ""
+
+#: inc/custom-meta.php:469
+msgid "Author Website URL"
+msgstr ""
+
+#: inc/custom-meta.php:476
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/custom-meta.php:483
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/custom-meta.php:490
+msgid "Dribbble URL"
+msgstr ""
+
+#: inc/custom-meta.php:498
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/custom-meta.php:505
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/custom-meta.php:512 inc/custom-meta.php:561
+msgid "MixCloud URL"
+msgstr ""
+
+#: inc/custom-meta.php:520
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/custom-meta.php:527
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/custom-meta.php:537
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/custom-meta.php:546
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/custom-meta.php:553
+msgid "Soundcloud URL"
+msgstr ""
+
+#: inc/custom-meta.php:571
+msgid "E-mail Address"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:16 inc/wp-instagram-widget.php:106
+msgid "Instagram"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:19
+msgid "Displays your latest Instagram photos by hash-tag"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:109
+msgid "Follow Me!"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:120
+msgid "Title"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:121
+msgid "Instagram #tag"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:122
+msgid "Number of photos"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:123
+msgid "Photo size"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:125
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:126
+msgid "Small"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:127
+msgid "Large"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:128
+msgid "Original"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:131
+msgid "Open links in"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:133
+msgid "Current window (_self)"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:134
+msgid "New window (_blank)"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:137
+msgid "Link text"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:179
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: inc/wp-instagram-widget.php:183
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: inc/wp-instagram-widget.php:191 inc/wp-instagram-widget.php:199
+#: inc/wp-instagram-widget.php:203
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: inc/wp-instagram-widget.php:215
+msgid "Instagram Image"
+msgstr ""
+
+#: inc/wp-instagram-widget.php:247
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: secondline-custom.php:40
+msgid "Shows"
+msgstr ""
+
+#: secondline-custom.php:41
+msgid "Show"
+msgstr ""
+
+#: secondline-custom.php:56
+msgid "Show Categories"
+msgstr ""
+
+#: secondline-custom.php:129
+msgid "Fancy"
+msgstr ""
+
+#: secondline-custom.php:130
+msgid "Regular"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "SecondLine Custom Addons"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://secondlinethemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Theme Addons for SecondLine Themes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SecondLine Themes"
+msgstr ""

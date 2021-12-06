@@ -1,0 +1,23 @@
+/* Custom Admin Styles */
+.wp-picker-container .wp-color-result.button {
+    border: 2px solid #b9b9b9;
+}
+
+.update-nag.bsf-update-nag, li.toplevel_page_bsf-registration {display:none !important;}
+
+.impor_msg {
+    text-align: center;
+    border: 3px solid #7AD03A;
+    padding: 12px 12px 24px 12px;
+    color: #7AD03A;
+    width: 88%;
+    margin: auto;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.loding_img{ display:block;}
+.slider-hidden {display:none;}
+.importer-checkbox-input {margin-bottom:5px;}
+.importer-checkbox-input-button {margin-top:15px;}
+.radium-importer-message pre {display:none !important;}

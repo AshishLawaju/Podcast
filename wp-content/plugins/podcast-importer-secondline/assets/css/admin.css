@@ -1,0 +1,171 @@
+/*
+Plugin Name: Podcast Importer SecondLine
+Description: A simple podcast import plugin with ongoing podcast feed import features.
+Plugin URI: https://secondlinethemes.com
+Author: SecondLineThemes
+Author URI: https://secondlinethemes.com
+*/
+
+.clearfix-slt:after,
+.clearfix-slt:before {
+  content: "";
+  display: table
+}
+
+.clearfix-slt:after {
+  clear: both
+}
+
+#slt-form-container {
+  width: 100%;
+}
+
+.secondline_import_form input[type=text] {
+  max-width: 70%;
+  width: 450px;
+}
+
+em.slt-notice {
+  float: right;
+  font-size: 0.8em;
+}
+
+.secondline_import_form .slt-checkbox-container {
+  margin: 20px 0 10px 0;
+}
+
+.secondline_import_form .slt-checkbox-container span {
+  margin-left: 8px;
+}
+
+.secondline_import_form input[type=submit] {
+  margin-top: 40px;
+}
+
+.secondline_import_form select {
+  max-width: 70%;
+  min-width: 225px;
+}
+
+input.podcast_feed {
+  min-width: 400px;
+  max-width: 90%;
+}
+
+.secondline_import_form select.post_type_select {
+  text-transform: capitalize;
+}
+
+.slt-plugin-container label.slt-form-label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  display: block;
+}
+
+h2.slt-importer-header {
+  margin: 0 0 40px 0;
+}
+
+.slt-plugin-container {
+  padding: 40px;
+  margin: 10px 20px 10px 0;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.existing-import-container .import-process-item {
+  padding: 6px 14px 4px 14px;
+  color: #848484;
+  background-color: #f9f9f9;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin: 0 25px 0 0;
+  width: 65%;
+}
+
+.existing-import-container ul li {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.existing-import-container ul li:last-child {
+  border: 0;
+}
+
+.existing-import-container .delete-button {
+  margin-left: 10px;
+  float: right;
+  position: relative;
+  top: 1px;
+}
+
+.wp-core-ui .slt-plugin-container .button-link-delete {
+  border-color: #a00;
+}
+
+.wp-core-ui .slt-plugin-container .button-link-delete:hover {
+  border-color: #dc3232;
+}
+
+.wp-core-ui .slt-plugin-container .button-link-delete:focus {
+  box-shadow: none;
+}
+
+.wp-core-ui .slt-plugin-container .button-link-edit {
+  top: 1px;
+  float: right;
+  position: relative;
+}
+
+span.slt-existing-post-notice {
+  font-style: italic;
+  font-size: 11px;
+}
+
+span.slt-importer-notice {
+  margin: -30px 0 40px 0;
+  display: block;
+  font-style: italic;
+}
+
+.tools_page_secondlinepodcastimport.wp-core-ui .notice.is-dismissible {
+  padding-right: 0;
+  margin: 12px 20px 12px 0px;
+}
+
+.edit-import-form, .advanced-settings-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: .3s max-height;
+}
+
+.edit-import-form.expanded, .expanded .advanced-settings-wrapper {
+  max-height: 9999px;
+}
+
+.slt-importer-header.advanced-options {
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+h3.slt-importer-header.advanced-options:before {
+  content: "+";
+  font-size: 1.2em;
+  font-weight: 900;
+  margin-right: 15px;
+}
+
+.expanded h3.slt-importer-header.advanced-options:before {
+  content: "–";
+}
+
+.existing-import-container .advanced-options:before {
+  display:none !important;
+}

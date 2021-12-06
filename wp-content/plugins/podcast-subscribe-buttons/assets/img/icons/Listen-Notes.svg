@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M60.85 62.12C58.13 62.12 53.3 59.35 48.74 54.94C42.98 49.38 39.82 43.32 41.67 41.4C42.05 41 42.62 40.81 43.33 40.81C46.06 40.81 50.88 43.58 55.45 47.99C61.21 53.54 64.37 59.61 62.52 61.53C62.14 61.92 61.57 62.12 60.85 62.12Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M38.86 36.55L16.59 14.07C28.89 14.07 38.86 24.14 38.86 36.55Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp3">
+			<path d="M32.14 37.18L15.96 21.21C24.9 21.21 32.14 28.36 32.14 37.18Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp4">
+			<path d="M25.63 36.87L15.96 27.3C21.3 27.3 25.63 31.59 25.63 36.87L25.63 36.87Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp5">
+			<path d="M17.96 36.97C17.09 36.97 16.38 36.26 16.38 35.4C16.38 34.52 17.09 33.81 17.96 33.81C18.83 33.81 19.54 34.52 19.54 35.4C19.54 36.26 18.83 36.97 17.96 36.97Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp6">
+			<path d="M25.1 63.44C17.97 63.44 12.18 62.82 12.18 62.07C12.18 61.31 17.97 60.71 25.1 60.71C32.23 60.71 38.02 61.31 38.02 62.07C38.02 62.82 32.23 63.44 25.1 63.44Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+		.shp1 { fill: none;stroke: #000000;stroke-width: 0.222 } 
+		.shp2 { fill: none;stroke: #000000;stroke-width: 5.444 } 
+		.shp3 { fill: none } 
+		.shp4 { fill: none;stroke: #b82f00;stroke-width: 3.843 } 
+		.shp5 { fill: none;stroke: #b82f00;stroke-width: 3.523 } 
+		.shp6 { fill: #b82f00 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="shp0" d="M67.36 58.03L59.19 66.49L36.83 44.9L45 36.43L67.36 58.03Z" />
+		</g>
+	</g>
+	<path id="Layer" class="shp1" d="M41.67 41.4C39.82 43.32 42.98 49.38 48.74 54.94C54.49 60.5 60.67 63.45 62.52 61.53C64.37 59.61 61.21 53.54 55.45 47.99C49.69 42.43 43.52 39.47 41.67 41.4Z" />
+	<path id="Layer" class="shp2" d="M26.68 49.78C39.55 49.78 49.99 39.34 49.99 26.47C49.99 13.59 39.55 3.15 26.68 3.15C13.8 3.15 3.36 13.59 3.36 26.47C3.36 39.34 13.8 49.78 26.68 49.78L26.68 49.78Z" />
+	<g id="Clip-Path" clip-path="url(#cp2)">
+		<g id="Layer">
+			<path id="Layer" class="shp3" d="M15.54 37.6L39.91 37.6L39.91 13.02L15.54 13.02L15.54 37.6Z" />
+		</g>
+	</g>
+	<path id="Layer" class="shp4" d="M38.86 36.55C38.86 24.14 28.89 14.07 16.59 14.07" />
+	<g id="Clip-Path" clip-path="url(#cp3)">
+		<g id="Layer">
+			<path id="Layer" class="shp3" d="M14.91 38.23L33.19 38.23L33.19 20.16L14.91 20.16L14.91 38.23Z" />
+		</g>
+	</g>
+	<path id="Layer" class="shp4" d="M32.14 37.18C32.14 28.36 24.9 21.21 15.96 21.21" />
+	<g id="Clip-Path" clip-path="url(#cp4)">
+		<g id="Layer">
+			<path id="Layer" class="shp3" d="M14.91 37.91L26.68 37.91L26.68 26.25L14.91 26.25L14.91 37.91Z" />
+		</g>
+	</g>
+	<path id="Layer" class="shp5" d="M25.63 36.87C25.63 31.59 21.3 27.3 15.96 27.3" />
+	<g id="Clip-Path" clip-path="url(#cp5)">
+		<g id="Layer">
+			<path id="Layer" class="shp6" d="M15.34 38.02L20.58 38.02L20.58 32.77L15.34 32.77L15.34 38.02Z" />
+		</g>
+	</g>
+	<path id="Layer" class="shp5" d="M17.96 36.97C18.83 36.97 19.54 36.26 19.54 35.4C19.54 34.52 18.83 33.81 17.96 33.81C17.09 33.81 16.38 34.52 16.38 35.4C16.38 36.26 17.09 36.97 17.96 36.97Z" />
+	<g id="Clip-Path" clip-path="url(#cp6)">
+		<g id="Layer">
+			<path id="Layer" class="shp0" d="M11.13 64.49L39.07 64.49L39.07 59.66L11.13 59.66L11.13 64.49L11.13 64.49Z" />
+		</g>
+	</g>
+</svg>

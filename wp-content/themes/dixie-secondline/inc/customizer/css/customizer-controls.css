@@ -1,0 +1,95 @@
+/* FIXING SUB_TABS for font families */
+#customize-control-secondline_themes_top_header_default .egf-customizer-tabs [data-customize-tab=font-appearance], #customize-control-secondline_themes_top_header_default .egf-customizer-tabs [data-customize-tab=font-positioning],
+#customize-control-secondline_themes_button_font_family .egf-customizer-tabs [data-customize-tab=font-appearance], #customize-control-secondline_themes_button_font_family .egf-customizer-tabs [data-customize-tab=font-positioning],
+#customize-control-secondline_themes_secondary_setting .egf-customizer-tabs [data-customize-tab=font-appearance], #customize-control-secondline_themes_secondary_setting .egf-customizer-tabs [data-customize-tab=font-positioning],
+#customize-control-secondline_themes_sub_nav_font_family .egf-customizer-tabs [data-customize-tab=font-appearance], #customize-control-secondline_themes_sub_nav_font_family .egf-customizer-tabs [data-customize-tab=font-positioning],
+#customize-control-secondline_themes_nav_font_family .egf-customizer-tabs [data-customize-tab=font-appearance], #customize-control-secondline_themes_nav_font_family .egf-customizer-tabs [data-customize-tab=font-positioning],
+#slt_main_nav_font .egf-customizer-tabs [data-customize-tab=font-appearance], #slt_main_nav_font .egf-customizer-tabs [data-customize-tab=font-positioning] {
+	display:none !important;
+}
+
+/* Buttonset */
+.customize-control-radio-buttonset {
+	margin-bottom:20px;
+}
+
+body #customize-theme-controls .control-section .wp-picker-container {
+	margin-bottom:10px;
+}
+.customize-control-radio-buttonset label {
+  padding: 0px;
+  background: #f7f7f7;
+  border-left: 1px solid #dedede;
+  line-height: 1; 
+  font-size:12px;
+  padding:4px;
+}
+
+.customize-control-radio-buttonset label .ui-button-text {
+	padding:3px 5px;
+	margin:0px;
+	line-height:13px;
+	border:none;
+}
+
+  .customize-control-radio-buttonset label.ui-state-active {
+    background: #888888; 
+	color:#ffffff;
+	border-color:#888888;
+}
+  .customize-control-radio-buttonset label.ui-corner-left {
+    border-radius: 3px 0 0 3px;
+    border-left: 0; }
+  .customize-control-radio-buttonset label.ui-corner-right {
+    border-radius: 0 3px 3px 0; }
+
+
+/* Slider Control */
+.secondline-slider-hidden {display:none;}
+.customize-control-slider {margin-bottom:20px;}
+input.secondline-slider {
+		width:25% !important;
+		display:inline-block;
+}
+.customize-control-slider input[type="text"] {
+	  border: none;
+	  text-align: center;
+	  padding: 0;
+	  margin: 0;
+	  font-size: 12px;
+	  box-shadow: none;
+	  color: #333; 
+}
+.customize-control-slider .ui-slider {
+	  position: relative;
+	  text-align: left;
+	  height: 7px;
+	  border-radius: 3px;
+	  background: #f2f2f2;
+	  border: 1px solid #dedede;
+	  margin-top: 10px;
+	  margin-bottom: 20px; 
+	  width:70%;
+	  float:right;
+}
+.customize-control-slider .ui-slider .ui-slider-handle {
+	    position: absolute;
+	    z-index: 2;
+	    width: 13px;
+	    height: 13px;
+	    top: -4px;
+	    border-radius: 3px;
+	    cursor: pointer;
+	    -ms-touch-action: none;
+	    touch-action: none;
+	    background: #777777;
+	    border: 1px solid #777777;
+}
+.customize-control-slider .ui-slider .ui-slider-range {
+	    position: absolute;
+	    z-index: 1;
+	    font-size: 0.7em;
+	    display: block;
+	    border: 0;
+	    background-position: 0 0;
+}

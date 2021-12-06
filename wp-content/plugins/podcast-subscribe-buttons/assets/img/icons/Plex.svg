@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<defs>
+		<radialGradient id="grd1" gradientUnits="userSpaceOnUse"  cx="46.679" cy="31.873" r="27.799">
+			<stop offset="0" stop-color="#f9be03"  />
+			<stop offset="1" stop-color="#cc7c19"  />
+		</radialGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #494949 } 
+		.shp1 { fill: url(#grd1) } 
+	</style>
+	<path id="Layer" class="shp0" d="M64 52.8C64 59 59 64 52.8 64L11.2 64C5 64 0 59 0 52.8L0 11.2C0 5 5 0 11.2 0L52.8 0C59 0 64 5 64 11.2L64 52.8Z" />
+	<path id="Layer" class="shp1" d="M19.89 7.35L34.17 7.35L49.94 32L34.17 56.65L19.89 56.65L35.65 32L19.89 7.35Z" />
+</svg>

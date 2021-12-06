@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="64" height="64">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #191619 } 
+		.shp1 { fill: #e20613 } 
+		.shp2 { fill: #f2987a } 
+		.shp3 { fill: #ffec00 } 
+		.shp4 { fill: #e5007e } 
+		.shp5 { fill: #f19dc3 } 
+		.shp6 { fill: #c7d300 } 
+		.shp7 { fill: #e4e89a } 
+		.shp8 { fill: #40bfef } 
+		.shp9 { fill: #bce3f9 } 
+	</style>
+	<g id="providers-list">
+		<g id="deezer">
+			<path id="Path" class="shp0" d="M4 0L68 0C70.21 0 72 1.79 72 4L72 68C72 70.21 70.21 72 68 72L4 72C1.79 72 0 70.21 0 68L0 4C0 1.79 1.79 0 4 0Z" />
+			<g id="Group">
+				<path id="Fill-2" fill-rule="evenodd" class="shp1" d="M10 50.81L19.42 50.81L19.42 47.95L10 47.95L10 50.81Z" />
+				<path id="Fill-3" fill-rule="evenodd" class="shp1" d="M10 46.99L19.42 46.99L19.42 44.13L10 44.13L10 46.99Z" />
+				<path id="Fill-4" fill-rule="evenodd" class="shp1" d="M10 43.43L19.42 43.43L19.42 40.57L10 40.57L10 43.43Z" />
+				<path id="Fill-5" fill-rule="evenodd" class="shp2" d="M10 39.62L19.42 39.62L19.42 36.75L10 36.75L10 39.62Z" />
+				<path id="Fill-6" fill-rule="evenodd" class="shp2" d="M10 36.05L19.42 36.05L19.42 33.19L10 33.19L10 36.05Z" />
+				<path id="Fill-7" fill-rule="evenodd" class="shp3" d="M20.65 50.81L30.07 50.81L30.07 47.95L20.65 47.95L20.65 50.81Z" />
+				<path id="Fill-8" fill-rule="evenodd" class="shp3" d="M20.65 46.99L30.07 46.99L30.07 44.13L20.65 44.13L20.65 46.99Z" />
+				<path id="Fill-9" fill-rule="evenodd" class="shp3" d="M20.65 43.43L30.07 43.43L30.07 40.57L20.65 40.57L20.65 43.43Z" />
+				<path id="Fill-10" fill-rule="evenodd" class="shp4" d="M31.31 50.81L40.73 50.81L40.73 47.95L31.31 47.95L31.31 50.81Z" />
+				<path id="Fill-11" fill-rule="evenodd" class="shp4" d="M31.31 46.99L40.73 46.99L40.73 44.13L31.31 44.13L31.31 46.99Z" />
+				<path id="Fill-12" fill-rule="evenodd" class="shp4" d="M31.31 43.43L40.73 43.43L40.73 40.57L31.31 40.57L31.31 43.43Z" />
+				<path id="Fill-13" fill-rule="evenodd" class="shp5" d="M31.31 39.62L40.73 39.62L40.73 36.75L31.31 36.75L31.31 39.62Z" />
+				<path id="Fill-14" fill-rule="evenodd" class="shp5" d="M31.31 36.05L40.73 36.05L40.73 33.19L31.31 33.19L31.31 36.05Z" />
+				<path id="Fill-15" fill-rule="evenodd" class="shp5" d="M31.31 32.24L40.73 32.24L40.73 29.38L31.31 29.38L31.31 32.24Z" />
+				<path id="Fill-16" fill-rule="evenodd" class="shp5" d="M31.31 28.42L40.73 28.42L40.73 25.56L31.31 25.56L31.31 28.42Z" />
+				<path id="Fill-17" fill-rule="evenodd" class="shp6" d="M41.71 50.81L51.13 50.81L51.13 47.95L41.71 47.95L41.71 50.81Z" />
+				<path id="Fill-18" fill-rule="evenodd" class="shp6" d="M41.71 46.99L51.13 46.99L51.13 44.13L41.71 44.13L41.71 46.99Z" />
+				<path id="Fill-19" fill-rule="evenodd" class="shp6" d="M41.71 43.43L51.13 43.43L51.13 40.57L41.71 40.57L41.71 43.43Z" />
+				<path id="Fill-20" fill-rule="evenodd" class="shp7" d="M41.71 39.62L51.13 39.62L51.13 36.75L41.71 36.75L41.71 39.62Z" />
+				<path id="Fill-21" fill-rule="evenodd" class="shp7" d="M41.71 36.05L51.13 36.05L51.13 33.19L41.71 33.19L41.71 36.05Z" />
+				<path id="Fill-22" fill-rule="evenodd" class="shp8" d="M52.36 50.81L61.78 50.81L61.78 47.95L52.36 47.95L52.36 50.81Z" />
+				<path id="Fill-23" fill-rule="evenodd" class="shp8" d="M52.36 46.99L61.78 46.99L61.78 44.13L52.36 44.13L52.36 46.99Z" />
+				<path id="Fill-24" fill-rule="evenodd" class="shp8" d="M52.36 43.43L61.78 43.43L61.78 40.57L52.36 40.57L52.36 43.43Z" />
+				<path id="Fill-25" fill-rule="evenodd" class="shp9" d="M52.36 39.62L61.78 39.62L61.78 36.75L52.36 36.75L52.36 39.62Z" />
+				<path id="Fill-26" fill-rule="evenodd" class="shp9" d="M52.36 36.05L61.78 36.05L61.78 33.19L52.36 33.19L52.36 36.05Z" />
+				<path id="Fill-27" fill-rule="evenodd" class="shp9" d="M52.36 32.24L61.78 32.24L61.78 29.38L52.36 29.38L52.36 32.24Z" />
+				<path id="Fill-28" fill-rule="evenodd" class="shp9" d="M52.36 28.42L61.78 28.42L61.78 25.56L52.36 25.56L52.36 28.42Z" />
+				<path id="Fill-29" fill-rule="evenodd" class="shp9" d="M52.36 24.86L61.78 24.86L61.78 22L52.36 22L52.36 24.86Z" />
+			</g>
+		</g>
+	</g>
+</svg>

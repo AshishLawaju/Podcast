@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f70664 } 
+		.shp1 { fill: #ffffff } 
+		.shp2 { fill: #293b65 } 
+	</style>
+	<g id="Podchaser/Logo/Dark">
+		<g id="Podchaser/Logo/Vector">
+			<path id="Outer-Pink" class="shp0" d="M32 64C14.3 64 0 49.65 0 31.89C0 14.14 14.3 -0.2 32 -0.2C49.7 -0.2 64 14.14 64 31.89C64 49.65 49.7 64 32 64Z" />
+			<g id="Group">
+				<path id="Outer-White" class="shp1" d="M32 59.51C16.78 59.51 4.48 47.16 4.48 31.89C4.48 16.63 16.78 4.29 32 4.29C47.22 4.29 59.52 16.63 59.52 31.89C59.52 47.16 47.22 59.51 32 59.51Z" />
+				<path id="Inner-Blue" class="shp2" d="M32 53.09C20.68 53.09 11.52 43.9 11.52 32.54C11.52 21.18 20.68 11.99 32 11.99C43.33 11.99 52.48 21.18 52.48 32.54C52.48 43.9 43.33 53.09 32 53.09Z" />
+				<path id="Combined-Shape" class="shp2" d="M23.04 58.01C18.57 56.47 14.62 53.8 11.52 50.34L11.52 32.54L23.04 32.54L23.04 58.01Z" />
+			</g>
+		</g>
+	</g>
+</svg>
